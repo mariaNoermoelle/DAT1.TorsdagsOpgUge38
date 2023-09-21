@@ -8,7 +8,7 @@ void setup()
   square1[0] = new Square(40,50);
   square1[0].display();//4.g
   
-  for(int i=0; i<squares.length-1; i++)//4.i
+  for(int i=0; i<squares.length; i++)//4.i
   {
     squares[i]=new Square((int)random(0,400),(int)random(0,400));
     squares[i].display();
