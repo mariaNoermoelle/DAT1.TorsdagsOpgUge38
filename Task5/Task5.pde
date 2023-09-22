@@ -4,8 +4,8 @@ void setup()
   MyClass myclass = new MyClass();
 }
 
-//2 HELP
-void Setup() 
+//2
+void setup() 
 {
    println("Jobs done!"); 
 }
