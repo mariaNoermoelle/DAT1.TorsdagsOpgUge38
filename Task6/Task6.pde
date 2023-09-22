@@ -1,6 +1,6 @@
 //6.a 
 int board[][]=new int[8][8];
-
+int sideLength=40;
 
 //6.b
 void setup()
@@ -29,7 +29,7 @@ void draw()
     } else {
      fill(255);
     }
-    rect(i*40,n*40,40,40);
+    rect(i*sideLength,n*sideLength,sideLength,sideLength);
     }
   }
 }
